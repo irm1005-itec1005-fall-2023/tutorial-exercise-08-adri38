@@ -57,11 +57,22 @@
 */
 @media (min-width: 576px) {
   .responsive-box {
+    background-color: #dc2f02 ;
     /* 1. Add code here to set the background colour to #dc2f02 */
 
   }
 }
 
+@media (min-width: 768px) {
+  .responsive-box {
+    background-color: aquamarine;}
+  }
+
+  @media (min-width: 992px){
+    .responsive-box {
+      background-color: #3c544a;
+    }
+  }
 /*
   Set the background colour for lg viewports
   Anything larger than 768px will have these styles applied
@@ -84,6 +95,11 @@
       responsive-box and set the background colour to #9d0208 */
 
 
+      @media (min-width: 1200px) {
+        .responsive-box {
+          background-color: #d90429;
+        }
+      }
 /*
   Set the background colour for xxl viewports
   Anything larger than 1200px will have these styles applied

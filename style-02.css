@@ -58,9 +58,21 @@
 
 /* Add your media queries below this line */
 
-
-
-
+@media (min-width:576px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width:768px){
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width:992px) {
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 
 
 
